@@ -1,7 +1,7 @@
-export default function Card() {
+export default function Card({ data }) {
   return (
-    <div>
-      <h1>Card</h1>
+    <div className="eachCard">
+      <h2>{data.title}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. A nobis optio
         impedit deserunt alias, dolores dignissimos iste sequi nam aperiam,
@@ -11,3 +11,5 @@ export default function Card() {
     </div>
   );
 }
+
+import "../styles.css/card.css";

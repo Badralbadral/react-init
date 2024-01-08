@@ -1,10 +1,6 @@
 export default function App() {
-  return (
-    <div>
-      <p>Hello World</p>
-      <Card />
-    </div>
-  );
+  return <Cards />;
 }
 
-import Card from "./components/Card";
+import Cards from "./components/Cards";
+import "./styles.css/global.css";
