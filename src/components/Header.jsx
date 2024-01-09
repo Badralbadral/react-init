@@ -2,15 +2,17 @@ export default function Header() {
   return (
     <div className="header">
       <div className="logo">
-        go<span>go</span>
+        <img src="https://mgl.gogo.mn/newsn/v4/images/gogo-logo.345096b3.png" />
       </div>
       <div className="menus">
         <ul>
           <li>Мэдээ</li>
           <li>GoGo булан</li>
-          <li>Үзэх</li>
+          <li className="watch">Үзэх</li>
           <li>Хэв маяг</li>
-          <li>English</li>
+          <li>
+            English<i class="fa-solid fa-magnifying-glass"></i>
+          </li>
         </ul>
       </div>
       <div className="sideInfos"></div>

@@ -1,6 +1,6 @@
 const DummyData = [
   {
-    title: "Уулзалтыг ингэж дуусгахгүй ээ хөө...",
+    title: "Уулзалтыг ингэж дуусгахгүй ээ хө.",
   },
   {
     title: `2024 оны Алтан бөмбөрцөг наадмын ШИЛДЭГ КИНО "Оппенхаймер"`,
@@ -16,10 +16,9 @@ const DummyData = [
 export default function Cards() {
   return (
     <div className="container">
-      <Card data={DummyData[0]} />
-      <Card data={DummyData[1]} />
-      <Card data={DummyData[2]} />
-      <Card data={DummyData[3]} />
+      {DummyData.map((e) => (
+        <Card data={e} />
+      ))}
     </div>
   );
 }
