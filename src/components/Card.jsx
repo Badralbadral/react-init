@@ -12,4 +12,4 @@ export default function Card({ data }) {
   );
 }
 
-import "../styles.css/card.css";
+import "../styles/card.css";

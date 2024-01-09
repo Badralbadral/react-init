@@ -1,6 +1,12 @@
 export default function App() {
-  return <Cards />;
+  return (
+    <div>
+      <Header />
+      <Cards />;
+    </div>
+  );
 }
 
+import Header from "./components/Header";
 import Cards from "./components/Cards";
-import "./styles.css/global.css";
+import "./styles/global.css";

@@ -25,4 +25,4 @@ export default function Cards() {
 }
 
 import Card from "../components/Card";
-import "../styles.css/container.css";
+import "../styles/container.css";
